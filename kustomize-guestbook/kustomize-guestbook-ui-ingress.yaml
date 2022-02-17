@@ -23,4 +23,4 @@ spec:
                   number: 80
 
   tls:
-    certResolver: default
+    secretName: guest-cert
