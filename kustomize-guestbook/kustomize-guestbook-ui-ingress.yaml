@@ -21,3 +21,7 @@ spec:
                 name:  kustomize-guestbook-ui
                 port:
                   number: 80
+  tls:
+  - hosts:
+      - guest.80.158.49.239.sslip.io
+    secretName: guest-cert
