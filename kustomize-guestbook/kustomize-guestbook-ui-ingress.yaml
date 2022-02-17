@@ -11,7 +11,7 @@ spec:
       match: Host(`guest.80.158.49.239.sslip.io`)
       services:
         - kind: Service
-          name: kustomize-guestbook-ing
+          name: kustomize-guestbook-ui
           passHostHeader: true
           namespace: testapp
           port: 80
