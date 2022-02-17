@@ -21,6 +21,3 @@ spec:
                 name:  kustomize-guestbook-ui
                 port:
                   number: 80
-
-  tls:
-    secretName: guest-cert
